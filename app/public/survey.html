@@ -18,7 +18,7 @@
 			</div>
 			
 			<div class="form-group">
-				<label for="question1">I like to do janitorial work.</label>
+				<label for="question1">I like wearing desinger shades.</label>
 				<select class="form-control" id="question1">
 					<option value="empty"></option>
 					<option value="1">1</option>
@@ -29,7 +29,7 @@
 				</select>
 			</div>
 			<div class="form-group">
-				<label for="question2">I have some bird-like features (or so I've been told).</label>
+				<label for="question2">I leave slimy trails of goo.</label>
 				<select class="form-control" id="question2">
 					<option value="empty"></option>
 					<option value="1">1</option>
@@ -51,7 +51,7 @@
 				</select>
 			</div>
 			<div class="form-group">
-				<label for="question4">I enjoy martial arts.</label>
+				<label for="question4">I enjoy starring in major motion pictures.</label>
 				<select class="form-control" id="question4">
 					<option value="empty"></option>
 					<option value="1">1</option>
@@ -62,7 +62,7 @@
 				</select>
 			</div>
 			<div class="form-group">
-				<label for="question5">I read as a hobby.</label>
+				<label for="question5">I have the body of a greek god!</label>
 				<select class="form-control" id="question5">
 					<option value="empty"></option>
 					<option value="1">1</option>
@@ -84,7 +84,7 @@
 				</select>
 			</div>
 			<div class="form-group">
-				<label for="question7">I don't so well with the opposite sex.</label>
+				<label for="question7">I/m just...kinda there, bouncing in the wind.</label>
 				<select class="form-control" id="question7">
 					<option value="empty"></option>
 					<option value="1">1</option>
@@ -95,7 +95,7 @@
 				</select>
 			</div>
 			<div class="form-group">
-				<label for="question8">I am good with money.</label>
+				<label for="question8">I am so rich, like many many houses rich</label>
 				<select class="form-control" id="question8">
 					<option value="empty"></option>
 					<option value="1">1</option>
@@ -106,7 +106,7 @@
 				</select>
 			</div>
 			<div class="form-group">
-				<label for="question9">I work out at the gym often.</label>
+				<label for="question9">I'm long and gross and have word antenea in my head.</label>
 				<select class="form-control" id="question9">
 					<option value="empty"></option>
 					<option value="1">1</option>
@@ -117,7 +117,7 @@
 				</select>
 			</div>
 			<div class="form-group">
-				<label for="question10">I consider myself aggressive.</label>
+				<label for="question10">I'm a total ladies man.</label>
 				<select class="form-control" id="question10">
 					<option value="empty"></option>
 					<option value="1">1</option>
@@ -196,7 +196,7 @@
 			var currentURL = window.location.origin;
 
 			// Ajax call for receiving response after POST req
-			$.post(currentURL + "/api/friends", newUser, function(data) {
+			$.post(currentURL + "..api/friends", newUser, function(data) {
 				$("#bestFriend").text(data.name);
 				$("#bestFriendPhoto").attr("src", data.photo);
 				$("#bestFriendModal").modal("toggle");
